@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int a=3;
+	int b=5;
+	int c=a^b;
+    int d=a&b;
+    int e=a|b;
+	//011
+	//101
+	//110
+	//&与  双1为1   |或  有1为1    ^ 异为1，同为0 
+	printf("%d\n",c);
+	printf("%d\n",d);
+	printf("%d\n",e);
+	return 0;
+}
